@@ -1,0 +1,40 @@
+.cta-section {
+  background-color: #e9e0c7; /* beige */
+  color: #0f0a16; /* dark purple for text */
+}
+
+.cta-buttons {
+  width: 100%;
+}
+
+.cta-btn-dark,
+.cta-btn-light {
+  width: 95vw;
+  max-width: 500px;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 200px;
+  transition: all 0.3s ease;
+}
+
+.cta-btn-dark {
+  background-color: #0f0a16;
+  color: white;
+  border: 2px solid #0f0a16;
+}
+
+.cta-btn-dark:hover {
+  background-color: #0f0a16;
+  border-color: #0f0a16;
+}
+
+.cta-btn-light {
+  background-color: white;
+  color: #0f0a16;
+  border: 2px solid #0f0a16;
+}
+
+.cta-btn-light:hover {
+  background-color: #eae6dc;
+}

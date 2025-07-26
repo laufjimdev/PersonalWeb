@@ -1,0 +1,101 @@
+.adventures-section {
+  background-color: #0f0a16; 
+  text-align: center;
+}
+
+.adventure-card {
+  position: relative;
+  background-size: 100%;
+  background-position: center;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-size 0.3s ease;
+}
+
+.adventure-card:hover {
+  transform: scale(1.03);
+}
+
+.adventure-card:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.adventure-card:hover .action-button {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.adventure-card:hover {
+  background-size: 110%;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(50, 50, 50, 0.4); /* semi-transparent gray */
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.card-text {
+  text-align: left;
+  bottom: 0;
+}
+
+.year {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.location {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.summary {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  backdrop-filter: blur(4px);
+}
+
+.action-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: white;
+  color: #2c1a47;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.adventure-card:hover .action-button {
+  pointer-events: auto;
+}

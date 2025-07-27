@@ -3,15 +3,15 @@ import JourneyIntro from "../Components/yearsComponents/JourneyIntro";
 import Discoveries from "../Components/yearsComponents/Discoveries";
 import MoreAdventures from "../Components/yearsComponents/MoreAdventures";
 
-const Year2022 = () => {
+const Year2023 = () => {
     return(
         <>
-            <YearHero backgroundImage="/assets/bg1.jpeg" year="2022" title="European Escapades" description="A grand tour through Europe's most iconic cities, discovering millennia of history and culture"></YearHero>
+            <YearHero backgroundImage="/assets/bg2.jpeg" year="2023" title="New World Discoveries" description="My first year of serious travel took me across North America, discovering diverse landscapes and cultures"></YearHero>
             <JourneyIntro />
             <Discoveries />
-            <MoreAdventures btnTxt="2023 European Tour" />
+            <MoreAdventures btnTxt="2022 European Tour" />
         </>
     );
 };
 
-export default Year2022;
+export default Year2023;

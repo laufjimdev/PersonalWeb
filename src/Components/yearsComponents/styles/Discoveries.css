@@ -1,0 +1,45 @@
+.discoveries-section {
+  text-align: left;
+}
+
+.discovery-card .image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.discovery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border-radius: 10px;
+}
+
+.image-wrapper:hover .discovery-image {
+  transform: scale(1.07);
+}
+
+.date-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.highlight-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.highlight-list li {
+  list-style-type: disc;
+}

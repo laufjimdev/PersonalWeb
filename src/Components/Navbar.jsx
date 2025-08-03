@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-light bg-light px-3 py-2 shadow-sm">
       <div className="container-fluid d-flex justify-content-between align-items-center">
-        <a className="navbar-brand d-flex align-items-center" href="#">
+        <Link className="navbar-brand d-flex align-items-center" to={"/"} onClick={closeMenu}>
           <span role="img" aria-label="map" className="me-2">🗺️</span>
           <strong>Travel Chronicles</strong>
-        </a>
+        </Link>
 
         <button
           className="navbar-toggler border-0"
@@ -33,13 +33,13 @@ const Navbar = () => {
             <a className="nav-link active" href="#" onClick={closeMenu}>Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#" onClick={closeMenu}>2022</a>
+            <Link className="nav-link" to={"/2022"} onClick={closeMenu}>2022</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#" onClick={closeMenu}>2023</a>
+            <Link className="nav-link" to={"/2023"} onClick={closeMenu}>2023</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#" onClick={closeMenu}>2024</a>
+            <Link className="nav-link" to={"/2024"} onClick={closeMenu}>2024</Link>
           </li>
         </ul>
       </div>

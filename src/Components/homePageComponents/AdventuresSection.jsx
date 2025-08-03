@@ -50,9 +50,11 @@ const AdventuresSection = () => {
                       ))}
                     </div>
                   </div>
-                  <button className="action-button" aria-label="Go to details">
-                    ➤
-                  </button>
+                  <Link to={`/${adv.year}`}>
+                    <button className="action-button" aria-label="Go to details">
+                      ➤
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

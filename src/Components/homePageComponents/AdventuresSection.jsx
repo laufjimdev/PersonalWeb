@@ -7,21 +7,21 @@ const adventures = [
     location: 'New York',
     summary: 'Explored the iconic skyline and diverse neighborhoods.',
     tags: ['Manhattan', 'Brooklyn', 'Queens'],
-    image: '/assets/bg1.jpeg'
+    image: '/assets/2022_bg.jpeg'
   },
   {
     year: 2023,
     location: 'Arizona',
     summary: 'Hiked the Grand Canyon and witnessed stunning sunsets.',
     tags: ['Sedona', 'Phoenix', 'Flagstaff'],
-    image: '/assets/bg2.jpeg'
+    image: '/assets/2023_bg.jpeg'
   },
   {
     year: 2024,
     location: 'Alaska',
     summary: 'Chased the Northern Lights and kayaked with glaciers.',
     tags: ['Anchorage', 'Fairbanks', 'Denali'],
-    image: '/assets/bg3.jpeg'
+    image: '/assets/2024_bg.jpeg'
   }
 ];
 

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <h3 className="footer-title mb-3">Travel Chronicles</h3>
         <p className="footer-desc mb-4 px-3">
-          Three years of wanderlust captured through stories and photographs. Each journey a chapter in the endless book of discovery.
+           Years of wanderlust captured through stories and photographs. Each journey a chapter in the endless book of discovery.
         </p>
 
         <ul className="footer-nav list-unstyled d-flex justify-content-center gap-4 mb-4 flex-wrap">
@@ -20,7 +20,7 @@ const Footer = () => {
 
         <hr className="footer-line my-4" />
 
-        <p className="footer-signature">Made with ❤️ for wanderers everywhere.</p>
+        <p className="footer-signature">Made with ❤️ for wanderers everywhere by LauraDev</p>
       </div>
     </footer>
   );

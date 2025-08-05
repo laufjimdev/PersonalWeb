@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container-fluid d-flex justify-content-between align-items-center">
         <Link className="navbar-brand d-flex align-items-center" to={"/"} onClick={closeMenu}>
           <span role="img" aria-label="map" className="me-2">🗺️</span>
-          <strong>Travel Chronicles</strong>
+          <strong>Travel Adventures</strong>
         </Link>
 
         <button

@@ -4,23 +4,23 @@ import './styles/AdventuresSection.css';
 const adventures = [
   {
     year: 2022,
-    location: 'New York',
-    summary: 'Explored the iconic skyline and diverse neighborhoods.',
-    tags: ['Manhattan', 'Brooklyn', 'Queens'],
+    location: 'Maryland',
+    summary: 'Relaxed on Ocean City’s beaches and explored the Eastern Shore.',
+    tags: ['Ocean City'],
     image: '/assets/2022_bg.jpeg'
   },
   {
     year: 2023,
-    location: 'Arizona',
-    summary: 'Hiked the Grand Canyon and witnessed stunning sunsets.',
-    tags: ['Sedona', 'Phoenix', 'Flagstaff'],
+    location: 'Florida',
+    summary: 'Enjoyed vibrant nightlife in Miami, thrills in Orlando, and nature in Williston.',
+    tags: ['Miami', 'Orlando', 'Williston'],
     image: '/assets/2023_bg.jpeg'
   },
   {
     year: 2024,
-    location: 'Alaska',
-    summary: 'Chased the Northern Lights and kayaked with glaciers.',
-    tags: ['Anchorage', 'Fairbanks', 'Denali'],
+    location: 'Puerto Rico',
+    summary: 'Wandered the colorful streets of San Juan, snorkeled in Culebra, and relaxed in Condado.',
+    tags: ['San Juan', 'Culebra', 'Condado'],
     image: '/assets/2024_bg.jpeg'
   }
 ];

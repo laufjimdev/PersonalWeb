@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className={`collapse navbar-collapse px-3 ${isOpen ? 'show' : ''}`}>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link active" href="#" onClick={closeMenu}>Home</a>
+            <Link className="nav-link active" to={"/"} onClick={closeMenu}>Home</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to={"/2022"} onClick={closeMenu}>2022</Link>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -11,10 +12,10 @@ const Footer = () => {
         </p>
 
         <ul className="footer-nav list-unstyled d-flex justify-content-center gap-4 mb-4 flex-wrap">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#2022">2022</a></li>
-          <li><a href="#2023">2023</a></li>
-          <li><a href="#2024">2024</a></li>
+          <li><Link to={'/'}>Home</Link></li>
+          <li><Link to={'/2022'}>2022</Link></li>
+          <li><Link to={'/2023'}>2023</Link></li>
+          <li><Link to={'/2024'}>2024</Link></li>
         </ul>
 
         <hr className="footer-line my-4" />

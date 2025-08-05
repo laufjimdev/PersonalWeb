@@ -4,3 +4,7 @@ body, html, #root {
   width: 100vw;
   overflow-x: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}

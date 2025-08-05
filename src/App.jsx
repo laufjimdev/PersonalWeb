@@ -6,12 +6,14 @@ import HomePage from './pages/HomePage'
 import Year2022 from './pages/Year2022';
 import Year2023 from './pages/Year2023';
 import Year2024 from './pages/Year2024';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
 
   return (
     <>
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

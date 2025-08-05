@@ -66,7 +66,8 @@ export const year2022 = {
         ]     
     },
     moreAdventures: {
-        btnTxt: "2023 European Tour"
+        btnTxt: "2023 European Tour →",
+        btnRoute: "/2023"
     }
 };
 
@@ -135,7 +136,8 @@ export const year2023 = {
         ]     
     },
     moreAdventures: {
-        btnTxt: "2023 European Tour"
+        btnTxt: "2024 European Tour →",
+        btnRoute: "/2024"
     }
 };
 
@@ -204,6 +206,7 @@ export const year2024 = {
         ]     
     },
     moreAdventures: {
-        btnTxt: "2023 European Tour"
+        btnTxt: " ← 2022 European Tour",
+        btnRoute: "/2022"
     }
 };

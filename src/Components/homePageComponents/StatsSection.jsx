@@ -10,7 +10,7 @@ const stats = [
 
 const StatsSection = () => {
   return (
-    <section className="stats-section text-center py-5 bg-light">
+    <section className="stats-section text-center py-5 bg-light" id='stats-section'>
       <div className="container">
         <h2 className="mb-3 fw-bold">My Travel Journey</h2>
         <p className="mb-5 text-muted">

@@ -10,7 +10,7 @@ const Year2024 = () => {
             <YearHero {...year2024.hero}></YearHero>
             <JourneyIntro {...year2024.journey}/>
             <Discoveries {...year2024.discoveries} />
-            <MoreAdventures {...Year2024.moreAdventures} />
+            <MoreAdventures {...year2024.moreAdventures} />
         </>
     );
 };

@@ -11,7 +11,7 @@ const CallToActionSection = () => {
         </p>
         <div className="cta-buttons d-flex flex-column gap-3 align-items-center">
           <button className="cta-btn-dark">View All Years</button>
-          <button className="cta-btn-light">Start a New Journey</button>
+          <button className="cta-btn-light">Contact Me</button>
         </div>
       </div>
     </section>

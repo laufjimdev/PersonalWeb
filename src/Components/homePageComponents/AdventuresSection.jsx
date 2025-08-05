@@ -35,28 +35,28 @@ const AdventuresSection = () => {
         <div className="row">
           {adventures.map((adv, index) => (
             <div key={index} className="col-md-4 mb-4">
-              <div
-                className="adventure-card"
-                style={{ backgroundImage: `url(${adv.image})` }}
-              >
-                <div className="overlay">
-                  <div className="card-text">
-                    <h4 className="year">{adv.year}</h4>
-                    <h5 className="location">{adv.location}</h5>
-                    <p className="summary">{adv.summary}</p>
-                    <div className="tags mt-3">
-                      {adv.tags.map((tag, i) => (
-                        <span key={i} className="tag">{tag}</span>
-                      ))}
+              <Link to={`/${adv.year}`}>
+                <div
+                  className="adventure-card"
+                  style={{ backgroundImage: `url(${adv.image})` }}
+                >
+                  <div className="overlay">
+                    <div className="card-text">
+                      <h4 className="year">{adv.year}</h4>
+                      <h5 className="location">{adv.location}</h5>
+                      <p className="summary">{adv.summary}</p>
+                      <div className="tags mt-3">
+                        {adv.tags.map((tag, i) => (
+                          <span key={i} className="tag">{tag}</span>
+                        ))}
+                      </div>
                     </div>
+                      <button className="action-button" aria-label="Go to details">
+                        ➤
+                      </button>
                   </div>
-                  <Link to={`/${adv.year}`}>
-                    <button className="action-button" aria-label="Go to details">
-                      ➤
-                    </button>
-                  </Link>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>

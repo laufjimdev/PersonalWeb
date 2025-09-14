@@ -1,16 +1,27 @@
-# React + Vite + Laura
+# My Travel Journey - Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my first React project! This website is a personal showcase of my travels across the United States, highlighting the places I've visited, experiences I've had, and memories I've made along the way.  
 
-Currently, two official plugins are available:
+## About Me
+I am passionate about traveling and exploring new destinations. This project reflects my journey and love for adventure, all while learning and improving my skills in web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What I Learned
+I built this project as part of my learning journey using online resources, experimenting with modern web technologies, and leveraging AI tools like ChatGPT to help me along the way. This project helped me strengthen my understanding of:
 
-## Expanding the ESLint configuration
+- **React** – for building dynamic and interactive user interfaces.
+- **Bootstrap** – for responsive and visually appealing design.
+- **JavaScript & CSS** – for functionality and styling.
+- **Problem-solving & debugging** – learning how to overcome challenges as a beginner developer.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- A visually engaging homepage showcasing my travel destinations.
+- Interactive elements and responsive design using React components and Bootstrap.
+- Organized sections for each year/location of my travels with images and summaries.
 
-# PersonalWeb
+## Technologies Used
+- React
+- Bootstrap
+- JavaScript, HTML, CSS
+- ChatGPT for guidance and code suggestions
 
-Learning how to use React, building a personal website
+## How to Run This Project

@@ -5,12 +5,12 @@ export const year2022 = {
     hero: {
         backgroundImage: "/assets/2022_bg.jpeg",
         year: "2022",
-        title: "European Escapades",
-        description: "A grand tour through Europe's most iconic cities, discovering millennia of history and culture"
+        title: "East Coast Adventures",
+        description: "The year I discovered my love for travel — from bustling cities to magical moments at DisneyWorld."
     },
     journey: {
         title: "The Beginning of My Journey",
-        description: "2022 marked the start of my travel adventures. What began as a simple trip to New York evolved into a year-long exploration of North American culture, nature, and urban life. Each destination taught me something new about the world and myself.",
+        description: "In 2022, I arrived in the United States and fell in love with exploring new places. What started as a few trips along the East Coast quickly became a passion, leading me through charming towns, iconic landmarks, and one of my childhood dreams come true — visiting DisneyWorld. Every stop taught me something new and deepened my desire to keep exploring.",
         stats: {
             countries: 3,
             months: 9,
@@ -20,50 +20,51 @@ export const year2022 = {
     discoveries:{
         description: "Three remarkable cities that redefined my understanding of modern Asia",
         places: [
-            {
-                image: '/assets/2022_1.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
-                description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
-                highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
-                ],
-            },
+        {
+            image: '/assets/2022_1.jpeg',
+            date: 'August 2022',
+            city: 'Niagara Falls',
+            state: 'New York',
+            description:
+                'Standing at the edge of Niagara Falls felt like witnessing nature’s raw power up close. The roar of the water, the mist on my face, and the endless flow left me in awe.',
+            highlights: [
+                'Maid of the Mist boat ride',
+                'Cave of the Winds',
+                'American Falls Viewpoint',
+                'Rainbow Bridge Walk',
+            ],
+        },
 
-            {
-                image: '/assets/2022_2.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
-                description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
-                highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
-                ],
-            },
-            {
-                image: '/assets/2022_3.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
-                description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
-                highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
-                ],
-            }
-        ]     
+        {
+            image: '/assets/2022_2.jpeg',
+            date: 'September 2022',
+            city: 'New York City',
+            state: 'New York',
+            description:
+                'The city that never sleeps welcomed me with its bright lights, endless energy, and iconic landmarks. Every street felt like a movie scene.',
+            highlights: [
+                'Times Square',
+                'Central Park',
+                'Statue of Liberty',
+                'Brooklyn Bridge',
+            ],
+        },
+
+        {
+            image: '/assets/2022_3.jpeg',
+            date: 'November 2022',
+            city: 'Orlando',
+            state: 'Florida',
+            description:
+                'A childhood dream finally came true — stepping into DisneyWorld’s magic. From fairytale castles to thrilling rides, every moment was filled with wonder.',
+            highlights: [
+                'Magic Kingdom',
+                'Epcot',
+                'Cinderella Castle',
+                'Happily Ever After Fireworks',
+            ],
+        }
+    ]     
     },
     moreAdventures: {
         btnTxt: "2023 European Tour →",
@@ -73,81 +74,83 @@ export const year2022 = {
 
 export const year2023 = {
     hero: {
-        backgroundImage: "/assets/2023_bg.jpeg",
-        year: "2023",
-        title: "European Escapades",
-        description: "A grand tour through Europe's most iconic cities, discovering millennia of history and culture"
+    backgroundImage: "/assets/2023_bg.jpeg",
+    year: "2023",
+    title: "Cross-Country Adventures",
+    description: "From the beaches of Florida to the deserts of the Southwest, 2023 was a year of road trips, new cities, and unforgettable landscapes."
     },
     journey: {
-        title: "The Beginning of My Journey",
-        description: "2022 marked the start of my travel adventures. What began as a simple trip to New York evolved into a year-long exploration of North American culture, nature, and urban life. Each destination taught me something new about the world and myself.",
+        title: "A Year on the Move",
+        description: "2023 was my most adventurous year yet. I started in sunny South Florida, exploring its vibrant coastal cities before setting out on an 11-day road trip across the southern U.S. My journey took me through Texas, New Mexico, Arizona, and beyond — from lively cities to serene national parks. Along the way, I returned to beloved spots like Ocean City and New York, and even found a home for a while in the cool mountain air of Flagstaff, Arizona. By the end of the year, I was back where it all began for this year — South Florida — with a heart full of memories and a map full of pins.",
         stats: {
-            countries: 3,
-            months: 9,
-            photos: 847
-        }   
+            states: 10,
+            months: 12,
+            photos: 1325
+        }
     },
-    discoveries:{
-        description: "Three remarkable cities that redefined my understanding of modern Asia",
+    discoveries: {
+        description: "Some unforgettable stops that defined my cross-country journey",
         places: [
             {
                 image: '/assets/2023_1.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
+                date: 'February 2023',
+                city: 'Miami',
+                state: 'Florida',
                 description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
+                    'Golden beaches, colorful art deco streets, and the rhythm of Latin beats — Miami was a vibrant start to my year. Every corner buzzed with life and flavor.',
                 highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
+                    'South Beach',
+                    'Wynwood Walls',
+                    'Little Havana',
+                    'Bayside Marketplace',
                 ],
             },
 
             {
                 image: '/assets/2023_2.jpeg',
                 date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
+                city: 'Houston',
+                state: 'Texas',
                 description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
+                    'A city full of big flavors and bigger skies. From world-class museums to Texas-sized barbecue, Houston was a mix of culture, history, and comfort food.',
                 highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
+                    'Houston Museum District',
+                    'Buffalo Bayou Park',
+                    'NASA Space Center',
+                    'Tex-Mex & BBQ food tour',
                 ],
             },
+
             {
                 image: '/assets/2023_3.jpeg',
                 date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
+                city: 'Taos',
+                state: 'New Mexico',
                 description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
+                    'Nestled in the high desert, Taos felt like stepping into a living painting — adobe homes, endless blue skies, and mountains that glowed at sunset.',
                 highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
+                    'Taos Pueblo',
+                    'Rio Grande Gorge Bridge',
+                    'Taos Plaza',
+                    'High Road to Taos',
                 ],
             },
+
             {
                 image: '/assets/2023_4.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
+                date: 'June 2023',
+                city: 'The Wave',
+                state: 'Utah',
                 description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
+                    'A natural wonder carved by time, The Wave’s swirling sandstone felt like walking through a dream. Every turn revealed a new masterpiece of nature.',
                 highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
+                    'Hike to The Wave',
+                    'Photography spots',
+                    'Coyote Buttes North',
+                    'Desert landscapes',
                 ],
             }
-        ]     
+        ]
     },
     moreAdventures: {
         btnTxt: "2024 European Tour →",
@@ -157,84 +160,86 @@ export const year2023 = {
 
 export const year2024 = {
     hero: {
-        backgroundImage: "/assets/2024_bg.jpeg",
-        year: "2024",
-        title: "European Escapades",
-        description: "A grand tour through Europe's most iconic cities, discovering millennia of history and culture"
+    backgroundImage: "/assets/2024_bg.jpeg",
+    year: "2024",
+    title: "Chasing Dreams & New Heights",
+    description: "From the Caribbean sun to Alaska’s dancing skies, 2024 was a year of bucket-list moments and unforgettable adventures."
     },
     journey: {
-        title: "The Beginning of My Journey",
-        description: "2022 marked the start of my travel adventures. What began as a simple trip to New York evolved into a year-long exploration of North American culture, nature, and urban life. Each destination taught me something new about the world and myself.",
+        title: "A Year of Firsts and Fulfilled Dreams",
+        description: "2024 took me from tropical beaches to snowy mountains, and from the desert heat to the northern glow of the aurora borealis. I began the year in sunny South Florida with a trip to Puerto Rico, then moved to Flagstaff, Arizona for six months — where I tried skiing for the first time, explored new national parks, and even hiked one of the most dangerous trails in the U.S., Angels Landing. The highlight of my year was traveling to Alaska to see the Northern Lights, a dream I’d held since childhood. Between road trips to California, adventures in Las Vegas, and countless mountain sunsets, every month brought a new reason to fall in love with the journey.",
         stats: {
-            countries: 3,
-            months: 9,
-            photos: 847
-        }   
+            states: 8,
+            months: 12,
+            photos: 1103
+        }
     },
-    discoveries:{
-        description: "Three remarkable cities that redefined my understanding of modern Asia",
+    discoveries: {
+        description: "Four unforgettable moments that defined my 2024 travels",
         places: [
-            {
-                image: '/assets/2024_1.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
-                description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
-                highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
-                ],
-            },
+        {
+            image: '/assets/2024_1.jpeg',
+            date: 'March 2024',
+            city: 'Ginnie Springs',
+            state: 'Florida',
+            description:
+                'Crystal-clear waters and lush surroundings made Ginnie Springs feel like a hidden paradise. A perfect day of swimming, tubing, and soaking in the Florida sunshine.',
+            highlights: [
+                'Tubing down the river',
+                'Swimming in turquoise springs',
+                'Picnic by the water',
+                'Underwater photography',
+            ],
+        },
 
-            {
-                image: '/assets/2024_2.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
-                description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
-                highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
-                ],
-            },
-            {
-                image: '/assets/2024_3.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
-                description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
-                highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
-                ],
-            },
-            {
-                image: '/assets/2024_4.jpeg',
-                date: 'April 2023',
-                city: 'Tokyo',
-                country: 'Japan',
-                description:
-                'The perfect blend of ultra-modern technology and ancient traditions. Cherry blossoms painted the city pink while neon lights illuminated the future.',
-                highlights: [
-                'Senso-ji Temple',
-                'Shibuya Crossing',
-                'Tokyo Skytree',
-                'Tsukiji Market',
-                ],
-            }
-        ]     
+        {
+            image: '/assets/2024_2.jpeg',
+            date: 'April 2024',
+            city: 'Sedona',
+            state: 'Arizona',
+            description:
+                'A hike to The Cave revealed one of Sedona’s most breathtaking hidden spots. The view from inside the cave framed the red rock landscape like a painting.',
+            highlights: [
+                'The Cave hike',
+                'Panoramic Sedona views',
+                'Red rock formations',
+                'Desert wildflowers',
+            ],
+        },
+
+        {
+            image: '/assets/2024_3.jpeg',
+            date: 'August 2024',
+            city: 'Pink Coral Sand Dunes',
+            state: 'Utah',
+            description:
+                'Rolling pink-hued dunes stretched to the horizon, glowing under the desert sun. A surreal and peaceful stop that felt like stepping onto another planet.',
+            highlights: [
+                'Sand sledding',
+                'Photography at sunset',
+                'Unique desert landscape',
+                'Exploring the dunes on foot',
+            ],
+        },
+
+        {
+            image: '/assets/2024_4.jpeg',
+            date: 'September 2024',
+            city: 'Fairbanks',
+            state: 'Alaska',
+            description:
+                'A lifelong dream came true under a sky painted with green and red lights. Watching the Northern Lights dance was pure magic — a moment I’ll carry forever.',
+            highlights: [
+                'Aurora Borealis viewing',
+                'Chena Hot Springs',
+                'Alaska wildlife',
+                'Star-filled night skies',
+            ],
+        }
+    ]
     },
     moreAdventures: {
-        btnTxt: " ← 2022 European Tour",
-        btnRoute: "/2022"
+        btnTxt: "← 2023 Cross-Country Tour",
+        btnRoute: "/2023"
     }
 };

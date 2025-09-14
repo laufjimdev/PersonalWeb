@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage'
 import Year2022 from './pages/Year2022';
 import Year2023 from './pages/Year2023';
 import Year2024 from './pages/Year2024';
+import ContactPage from './pages/ContactPage';
 import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/2022" element={<Year2022 />} />
         <Route path="/2023" element={<Year2023 />} />
         <Route path="/2024" element={<Year2024 />} />
+        <Route path="/ContactPage" element={<ContactPage />} />
       </Routes>
       <Footer></Footer>
     </Router>  

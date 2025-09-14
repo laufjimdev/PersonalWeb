@@ -17,7 +17,7 @@ const Discoveries = ({description, places}) => {
             <h3 className="mb-0">{place.city}</h3>
             <h5 className="text-muted mb-3">{place.country}</h5>
             <p>{place.description}</p>
-            <h6 className="fw-bold">Cultural Highlights:</h6>
+            <h6 className="fw-bold">Highlights:</h6>
             <ul className="highlight-list">
               {place.highlights.map((item, idx) => (
                 <li key={idx}>{item}</li>

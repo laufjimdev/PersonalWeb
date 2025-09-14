@@ -16,6 +16,7 @@
   font-weight: 500;
   border-radius: 200px;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .cta-btn-dark {
@@ -37,4 +38,5 @@
 
 .cta-btn-light:hover {
   background-color: #eae6dc;
+  text-decoration: none;
 }

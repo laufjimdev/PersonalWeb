@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;   
+    padding: 0.5rem 1rem; 
+  }
+
+  .navbar-nav {
+    gap: 1.5rem;  
+  }
+}

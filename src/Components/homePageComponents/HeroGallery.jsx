@@ -45,7 +45,7 @@ const HeroGallery = () => {
       )}
 
       <div className="overlay-content text-center text-white">
-        <h1 className="display-4 fw-bold">Journey Through My Adventures</h1>
+        <h1 className="display-4 fw-bold">Journey Through <br /> <span className='highlight-color'>My Adventures</span></h1>
         <p className="lead">Years of wanderlust captured through lens and memory, from hidden gems to iconic landmarks around the United States</p>
         <a href="#stats-section"><button className="btn btn-light mt-3">See More</button></a>
       </div>

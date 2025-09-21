@@ -11,7 +11,7 @@ const JourneyIntro = ({ title, description, stats={} }) => {
         <p className="mb-5 mx-auto text-muted" style={{ maxWidth: '700px' }}>{description}
         </p>
 
-        <div className="d-flex flex-column align-items-center gap-4">
+        <div className="d-flex">
           <div className="stat-item">
             <FaMapMarkerAlt size={32} className="mb-1" />
             <h3 className="fw-bold mb-0">{stats.countries}</h3>

@@ -8,10 +8,19 @@ const CallToActionSection = () => {
       <div className="container">
         <h2 className="fw-bold mb-3">Ready to Explore?</h2>
         <p className="mb-4">
-          Dive deeper into each year's adventures and discover the stories behind the photographs.
+          Dive deeper into each year's adventures and discover the stories behind the photographs. Or get in touch to learn more abour my work and experiences.
         </p>
         <div className="cta-buttons d-flex flex-column gap-3 align-items-center">
-          <button className="cta-btn-dark">View All Years</button>
+          <button 
+          className="cta-btn-dark view-years-btn"
+          type="button"
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu" 
+          aria-expanded="false" 
+          aria-label="Toggle menu">
+          View All Years
+          </button>
           <Link to={'/ContactPage'} className="cta-btn-light">Contact Me</Link>
         </div>
       </div>

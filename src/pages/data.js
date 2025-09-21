@@ -67,7 +67,7 @@ export const year2022 = {
     ]     
     },
     moreAdventures: {
-        btnTxt: "2023 A year on the move →",
+        btnTxt: `2023 "A year on the move" →`,
         btnRoute: "/2023"
     }
 };
@@ -153,7 +153,7 @@ export const year2023 = {
         ]
     },
     moreAdventures: {
-        btnTxt: "2024 A year of firsts →",
+        btnTxt: `"2024 A year of firsts" →`,
         btnRoute: "/2024"
     }
 };
@@ -239,7 +239,7 @@ export const year2024 = {
     ]
     },
     moreAdventures: {
-        btnTxt: "← 2023 A year on the move",
+        btnTxt: `← "2023 A year on the move"`,
         btnRoute: "/2023"
     }
 };

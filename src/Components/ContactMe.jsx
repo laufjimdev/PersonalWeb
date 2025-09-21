@@ -70,7 +70,7 @@ export default function ContactMe() {
               transform: "translateX(-50%)",
               width: "105%",
               height: "105%",
-              background: "linear-gradient(135deg, #ede6f5ff, #ca8df8ff)",
+              background: "linear-gradient(135deg, #b5afbaff, #4c325fff)",
               borderRadius: "30px",
               zIndex: 0,
             }}

@@ -40,3 +40,9 @@
   background-color: #eae6dc;
   text-decoration: none;
 }
+
+@media (min-width: 768px) {
+  .view-years-btn {
+    display: none
+  }
+}

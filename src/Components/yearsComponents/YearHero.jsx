@@ -9,7 +9,7 @@ const YearHero = ({ backgroundImage, year, title, description }) => {
     >
       <div className="overlay w-100 h-100 d-flex flex-column justify-content-between">
         <div className="pt-3 ps-4">
-          <Link to="/" className="btn btn-md btn-outline-light">
+          <Link to="/" className="btn btn-md btn-outline-light back-btn">
             ← Back to Home
           </Link>
         </div>

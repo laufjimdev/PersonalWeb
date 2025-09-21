@@ -2,8 +2,7 @@ import YearHero from "../Components/yearsComponents/YearHero";
 import JourneyIntro from "../Components/yearsComponents/JourneyIntro";
 import Discoveries from "../Components/yearsComponents/Discoveries";
 import MoreAdventures from "../Components/yearsComponents/MoreAdventures";
-import { year2022 } from "./data";
-
+import { year2022 } from "./data.js";
 const Year2022 = () => {
     return(
         <>

@@ -8,7 +8,7 @@ const MoreAdventures = ({btnTxt, btnRoute}) => {
       <div className="container">
         <h2 className="fw-bold mb-4">More Adventures Await</h2>
 
-        <div className="d-flex flex-column align-items-center gap-3">
+        <div className="btns d-flex align-items-center gap-3">
           <Link className="btn btn-primary btn-lg w-100 max-w-500">
             Explore All Years
           </Link>

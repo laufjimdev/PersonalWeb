@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Navbar from './Components/Navbar';
-import Footer from './Components/homePageComponents/Footer';
+import Footer from './Components/Footer';
 import HomePage from './pages/HomePage'
 import Year2022 from './pages/Year2022';
 import Year2023 from './pages/Year2023';

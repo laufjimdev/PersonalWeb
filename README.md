@@ -25,3 +25,4 @@ I built this project as part of my learning journey using online resources, expe
 - ChatGPT for guidance and code suggestions
 
 ## How to Run This Project
+You can visit the site by clicking the following link: [My travel adventures](https://laufjimdev.github.io/PersonalWeb/)

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 import './styles/MoreAdventures.css'; 
+
 
 const MoreAdventures = ({btnTxt, btnRoute}) => {
   return (
@@ -9,9 +11,9 @@ const MoreAdventures = ({btnTxt, btnRoute}) => {
         <h2 className="fw-bold mb-4">More Adventures Await</h2>
 
         <div className="btns d-flex align-items-center gap-3">
-          <Link className="btn btn-primary btn-lg w-100 max-w-500">
+          <HashLink smooth to="/#all-years" className="btn btn-primary btn-lg w-100 max-w-500" >
             Explore All Years
-          </Link>
+          </HashLink>
           <Link to={btnRoute} className="btn btn-outline-secondary btn-lg w-100 max-w-500">
               {btnTxt}
           </Link>

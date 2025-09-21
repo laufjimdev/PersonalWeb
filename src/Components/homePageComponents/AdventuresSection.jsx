@@ -27,7 +27,7 @@ const adventures = [
 
 const AdventuresSection = () => {
   return (
-    <section className="adventures-section text-white py-5">
+    <section className="adventures-section text-white py-5" id="all-years">
       <div className="container">
         <h2 className="fw-bold mb-3">Adventures by Year</h2>
         <p className="mb-5">Each year brought new horizons, cultures, and memories to treasure forever</p>

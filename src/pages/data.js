@@ -18,7 +18,7 @@ export const year2022 = {
         }   
     },
     discoveries:{
-        description: "Three remarkable cities that redefined my understanding of modern Asia",
+        description: "Three remarkable cities that redefined my understanding of US east coast.",
         places: [
         {
             image: '/assets/2022_1.jpeg',

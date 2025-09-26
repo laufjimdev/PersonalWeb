@@ -1,11 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import './styles/HeroGallery.css'
+import './styles/HeroGallery.css';
+
 
 const images = [
-  process.env.PUBLIC_URL + '/assets/bg1.jpeg',
-  process.env.PUBLIC_URL + '/assets/bg2.jpeg',
-  process.env.PUBLIC_URL + '/assets/bg3.jpeg'
+  '/PersonalWeb/assets/bg1.jpeg',
+  '/PersonalWeb/assets/bg2.jpeg',
+  '/PersonalWeb/assets/bg3.jpeg'
 ];
 
 const HeroGallery = () => {

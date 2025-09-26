@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename="/PersonalWeb">
       <ScrollToTop />
       <Navbar />
       <Routes>

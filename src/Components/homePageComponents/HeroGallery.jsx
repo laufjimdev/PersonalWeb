@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import './styles/HeroGallery.css'
 
 const images = [
-  '/assets/bg1.jpeg',
-  '/assets/bg2.jpeg',
-  '/assets/bg3.jpeg'
+  process.env.PUBLIC_URL + '/assets/bg1.jpeg',
+  process.env.PUBLIC_URL + '/assets/bg2.jpeg',
+  process.env.PUBLIC_URL + '/assets/bg3.jpeg'
 ];
 
 const HeroGallery = () => {

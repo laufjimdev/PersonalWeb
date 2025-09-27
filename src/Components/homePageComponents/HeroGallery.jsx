@@ -4,9 +4,9 @@ import './styles/HeroGallery.css';
 
 
 const images = [
-  '/PersonalWeb/assets/bg1.jpeg',
-  '/PersonalWeb/assets/bg2.jpeg',
-  '/PersonalWeb/assets/bg3.jpeg'
+  '/PersonalWeb/assets/bg1.webp',
+  '/PersonalWeb/assets/bg2.webp',
+  '/PersonalWeb/assets/bg3.webp'
 ];
 
 const HeroGallery = () => {

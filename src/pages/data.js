@@ -3,7 +3,7 @@ import JourneyIntro from "../Components/yearsComponents/JourneyIntro";
 //Year 2022 Data
 export const year2022 = {
     hero: {
-        backgroundImage: "/assets/2022_bg.jpeg",
+        backgroundImage: "/PersonalWeb/assets/2022_bg.webp",
         year: "2022",
         title: "East Coast Adventures",
         description: "The year I discovered my love for travel — from bustling cities to magical moments at DisneyWorld."
@@ -21,7 +21,7 @@ export const year2022 = {
         description: "Three remarkable cities that redefined my understanding of US east coast.",
         places: [
         {
-            image: '/assets/2022_1.jpeg',
+            image: '/PersonalWeb/assets/2022_1.webp',
             date: 'August 2022',
             city: 'Niagara Falls',
             state: 'New York',
@@ -36,7 +36,7 @@ export const year2022 = {
         },
 
         {
-            image: '/assets/2022_2.jpeg',
+            image: '/PersonalWeb/assets/2022_2.webp',
             date: 'September 2022',
             city: 'New York City',
             state: 'New York',
@@ -51,7 +51,7 @@ export const year2022 = {
         },
 
         {
-            image: '/assets/2022_3.jpeg',
+            image: '/PersonalWeb/assets/2022_3.webp',
             date: 'November 2022',
             city: 'Orlando',
             state: 'Florida',
@@ -74,7 +74,7 @@ export const year2022 = {
 
 export const year2023 = {
     hero: {
-    backgroundImage: "/assets/2023_bg.jpeg",
+    backgroundImage: "/PersonalWeb/assets/2023_bg.webp",
     year: "2023",
     title: "Cross-Country Adventures",
     description: "From the beaches of Florida to the deserts of the Southwest, 2023 was a year of road trips, new cities, and unforgettable landscapes."
@@ -92,7 +92,7 @@ export const year2023 = {
         description: "Some unforgettable stops that defined my cross-country journey",
         places: [
             {
-                image: '/assets/2023_1.jpeg',
+                image: '/PersonalWeb/assets/2023_1.webp',
                 date: 'February 2023',
                 city: 'Miami',
                 state: 'Florida',
@@ -107,7 +107,7 @@ export const year2023 = {
             },
 
             {
-                image: '/assets/2023_2.jpeg',
+                image: '/PersonalWeb/assets/2023_2.webp',
                 date: 'April 2023',
                 city: 'Houston',
                 state: 'Texas',
@@ -122,7 +122,7 @@ export const year2023 = {
             },
 
             {
-                image: '/assets/2023_3.jpeg',
+                image: '/PersonalWeb/assets/2023_3.webp',
                 date: 'April 2023',
                 city: 'Taos',
                 state: 'New Mexico',
@@ -137,7 +137,7 @@ export const year2023 = {
             },
 
             {
-                image: '/assets/2023_4.jpeg',
+                image: '/PersonalWeb/assets/2023_4.webp',
                 date: 'June 2023',
                 city: 'The Wave',
                 state: 'Utah',
@@ -160,7 +160,7 @@ export const year2023 = {
 
 export const year2024 = {
     hero: {
-    backgroundImage: "/assets/2024_bg.jpeg",
+    backgroundImage: "/PersonalWeb/assets/2024_bg.webp",
     year: "2024",
     title: "Chasing Dreams & New Heights",
     description: "From the Caribbean sun to Alaska’s dancing skies, 2024 was a year of bucket-list moments and unforgettable adventures."
@@ -178,7 +178,7 @@ export const year2024 = {
         description: "Four unforgettable moments that defined my 2024 travels",
         places: [
         {
-            image: '/assets/2024_1.jpeg',
+            image: '/PersonalWeb/assets/2024_1.webp',
             date: 'March 2024',
             city: 'Ginnie Springs',
             state: 'Florida',
@@ -193,7 +193,7 @@ export const year2024 = {
         },
 
         {
-            image: '/assets/2024_2.jpeg',
+            image: '/PersonalWeb/assets/2024_2.webp',
             date: 'April 2024',
             city: 'Sedona',
             state: 'Arizona',
@@ -208,7 +208,7 @@ export const year2024 = {
         },
 
         {
-            image: '/assets/2024_3.jpeg',
+            image: '/PersonalWeb/assets/2024_3.webp',
             date: 'August 2024',
             city: 'Pink Coral Sand Dunes',
             state: 'Utah',
@@ -223,7 +223,7 @@ export const year2024 = {
         },
 
         {
-            image: '/assets/2024_4.jpeg',
+            image: '/PersonalWeb/assets/2024_4.webp',
             date: 'September 2024',
             city: 'Fairbanks',
             state: 'Alaska',

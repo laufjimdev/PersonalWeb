@@ -78,7 +78,7 @@ export default function ContactMe() {
 
           {/* Profile Image */}
           <img
-            src="/assets/lja.jpeg" // replace with your profile pic path
+            src="/PersonalWeb/assets/lja.webp" // replace with your profile pic path
             alt="Laura Jimenez Almanzar"
             className="img-fluid rounded-4 shadow"
             style={{

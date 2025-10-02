@@ -14,8 +14,8 @@ const JourneyIntro = ({ title, description, stats={} }) => {
         <div className="d-flex">
           <div className="stat-item">
             <FaMapMarkerAlt size={32} className="mb-1" />
-            <h3 className="fw-bold mb-0">{stats.countries}</h3>
-            <p className="text-muted">Countries</p>
+            <h3 className="fw-bold mb-0">{stats.states}</h3>
+            <p className="text-muted">States</p>
           </div>
 
           <div className="stat-item">

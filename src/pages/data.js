@@ -12,7 +12,7 @@ export const year2022 = {
         title: "The Beginning of My Journey",
         description: "In 2022, I arrived in the United States and fell in love with exploring new places. What started as a few trips along the East Coast quickly became a passion, leading me through charming towns, iconic landmarks, and one of my childhood dreams come true — visiting DisneyWorld. Every stop taught me something new and deepened my desire to keep exploring.",
         stats: {
-            countries: 3,
+            states: 3,
             months: 9,
             photos: 847
         }   
